@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <div id="header" class="header">
+            <div class="nav-menu">
+                <b>Menu:</b>
+                <a class="link" href="/pizza/list">List</a> <b>|</b>
+                <a class="link" href="/orders">Orders</a>
+            </div>
+            <h1>GigaChad's SuperPizza</h1>
+        </div>
+
+        <%- locals.cartHtml %>
+        <%- locals.pizzaString %>
+        <%- locals.ordersHtmlString %>
+        <%- locals.orderFormHtml %>
+    </div>
+    
+</body>
+</html>

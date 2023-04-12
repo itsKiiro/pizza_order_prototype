@@ -1,0 +1,53 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "Salame",
+            "ingredients": ["tomato sauce", "cheese", "oregano", "salame"],
+            "price": 950,
+            "allergens": [1, 2, 4]
+        },
+        {
+            "id": 2,
+            "name": "Marinara",
+            "ingredients": ["tomato sauce", "oregano", "garlic"],
+            "price": 650,
+            "allergens": [5, 2, 3]
+        },
+        {
+            "id": 3,
+            "name": "Margaritha",
+            "ingredients": ["tomato sauce", "cheese", "oregano", "garlic"],
+            "price": 750,
+            "allergens": [1, 4]
+        },
+        {
+            "id": 4,
+            "name": "Bolognese",
+            "ingredients": ["bolognese sauce", "cheese", "garlic"],
+            "price": 950,
+            "allergens": [3, 4, 5]
+        },
+        {
+            "id": 5,
+            "name": "Toskana",
+            "ingredients": ["tomato sauce", "cheese", "oregano", "ham", "champignons"],
+            "price": 1050,
+            "allergens": [5]
+        },
+        {
+            "id": 6,
+            "name": "Funghi",
+            "ingredients": ["tomato sauce", "cheese", "oregano", "champignons"],
+            "price": 950,
+            "allergens": [1, 2, 4]
+        },
+        {
+            "id": 7,
+            "name": "Tonno",
+            "ingredients": ["tomato sauce", "cheese", "tuna", "onions"],
+            "price": 1000,
+            "allergens": [1, 4]
+        }
+    ]
+}

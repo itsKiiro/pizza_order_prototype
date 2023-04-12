@@ -1,0 +1,24 @@
+{
+    "allergenes": [
+        {
+            "id": 1,
+            "name": "gluten"
+        },
+        {
+            "id": 2,
+            "name": "krabs"
+        },
+        {
+            "id": 3,
+            "name": "eggs"
+        },
+        {
+            "id": 4,
+            "name": "milk"
+        },
+        {
+            "id": 5,
+            "name": "soya"
+        }
+    ]
+}

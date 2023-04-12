@@ -1,0 +1,117 @@
+body {
+    background-image: url("/images/pizza.jpg");
+    background-size: contain;
+    text-align: center;
+    padding: 100px;
+    background-color: #1a1a1a;
+}
+
+#pizzas {
+    background-color: beige;
+    padding: 75px;
+    border-radius: 18px;
+}
+
+.page {
+    background-color: beige;
+    padding: 75px;
+    border-radius: 18px;
+}
+
+.header {
+    background-color: beige;
+    padding: 15px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.nav-menu {
+    background-color: rgba(154, 154, 138, 0.652);
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+.link:hover {
+    color: aqua;
+}
+
+#order {
+    background-color: beige;
+    border-radius: 18px;
+    padding: 45px;
+    margin-top: 17px;
+}
+
+button {
+    width: 170px;
+    height: 21px;
+    border-radius: 14px;
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 1px;
+}
+
+hr {
+    border: solid 1;
+}
+
+.cart {
+    background-color: antiquewhite;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 25px;
+    box-shadow: -10px 15px 15px 5px #333;
+    padding: 5px;
+    color: #111;
+    position: fixed;
+    right: 30px;
+    top: 10px;
+}
+
+@media(max-width: 768px) {
+    .orderForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pizzas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 661px) {
+    body {
+        padding: 35px;
+        font-size: 14px;
+    }
+
+    .orderForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pizzas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
